@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blockgamemod:platinum_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "blockgamemod:platinum_nugget"
+  }
+}

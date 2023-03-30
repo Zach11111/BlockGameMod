@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gold_ingot",
+  "ingredients": [
+    {
+      "item": "blockgamemod:platinum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "blockgamemod:platinum_ingot"
+  }
+}

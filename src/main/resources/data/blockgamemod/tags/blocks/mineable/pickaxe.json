@@ -331,7 +331,6 @@
     "minecraft:packed_mud",
     "blockgamemod:platinum_block",
     "blockgamemod:raw_platinum_block",
-    "blockgamemod:platinum_ore",
-    "blockgamemod:end_platinum_ore"
+    "blockgamemod:platinum_ore"
   ]
 }

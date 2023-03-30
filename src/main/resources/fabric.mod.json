@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "cheatz",
+	"id": "blockgamemod",
 	"version": "dev",
-	"name": "Cheatz",
-	"description": "platinum",
+	"name": "blockgamemod",
+	"description": "mod for block game",
 	"authors": [
 		"Zach"
 	],
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/cheatz/icon.png",
+	"icon": "assets/blockgamemod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"zach.cheatz.ExampleMod"
+			"zach.blockgamemod.ExampleMod"
 		],
 		"client": [
-			"zach.cheatz.ExampleModClient"
+			"zach.blockgamemod.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"cheatz.mixins.json",
+		"blockgamemod.mixins.json",
 		{
-			"config": "cheatz.client.mixins.json",
+			"config": "blockgamemod.client.mixins.json",
 			"environment": "client"
 		}
 	],

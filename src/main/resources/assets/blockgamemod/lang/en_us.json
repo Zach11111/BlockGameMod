@@ -1,0 +1,19 @@
+{
+  "item.blockgamemod.raw_platinum": "Raw Platinum",
+  "item.blockgamemod.platinum_ingot": "Platinum Ingot",
+  "item.blockgamemod.platinum_nugget": "Platinum Nugget",
+  "item.blockgamemod.platinum_pickaxe": "Platinum Pickaxe",
+  "item.blockgamemod.platinum_axe": "Platinum Axe",
+  "item.blockgamemod.platinum_shovel": "Platinum Shovel",
+  "item.blockgamemod.platinum_sword": "Platinum Sword",
+  "item.blockgamemod.platinum_hoe": "Platinum Hoe",
+  "block.blockgamemod.platinum_block": "Block of Platinum",
+  "block.blockgamemod.raw_platinum_block": "Block of Raw Platinum",
+  "block.blockgamemod.platinum_ore": "Platinum Ore",
+  "block.blockgamemod.end_platinum_ore": "End Platinum Ore",
+  "item.blockgamemod.platinum_helmet": "Platinum Helmet",
+  "item.blockgamemod.platinum_chestplate": "Platinum Chestplate",
+  "item.blockgamemod.platinum_leggings": "Platinum Leggings",
+  "item.blockgamemod.platinum_boots": "Platinum Boots",
+  "item.blockgamemod.test_food": "Debug Food Item"
+}

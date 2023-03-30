@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "blockgamemod:block/end_platinum_ore"
+  }
+}

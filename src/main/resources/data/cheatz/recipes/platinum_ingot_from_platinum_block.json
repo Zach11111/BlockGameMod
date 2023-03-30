@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gold_ingot",
+  "ingredients": [
+    {
+      "item": "cheatz:platinum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cheatz:platinum_ingot"
+  }
+}

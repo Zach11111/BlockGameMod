@@ -1,0 +1,19 @@
+{
+  "item.cheatz.raw_platinum": "Raw Platinum",
+  "item.cheatz.platinum_ingot": "Platinum Ingot",
+  "item.cheatz.platinum_nugget": "Platinum Nugget",
+  "item.cheatz.platinum_pickaxe": "Platinum Pickaxe",
+  "item.cheatz.platinum_axe": "Platinum Axe",
+  "item.cheatz.platinum_shovel": "Platinum Shovel",
+  "item.cheatz.platinum_sword": "Platinum Sword",
+  "item.cheatz.platinum_hoe": "Platinum Hoe",
+  "block.cheatz.platinum_block": "Block of Platinum",
+  "block.cheatz.raw_platinum_block": "Block of Raw Platinum",
+  "block.cheatz.platinum_ore": "Platinum Ore",
+  "block.cheatz.end_platinum_ore": "End Platinum Ore",
+  "item.cheatz.platinum_helmet": "Platinum Helmet",
+  "item.cheatz.platinum_chestplate": "Platinum Chestplate",
+  "item.cheatz.platinum_leggings": "Platinum Leggings",
+  "item.cheatz.platinum_boots": "Platinum Boots",
+  "item.cheatz.test_food": "Debug Food Item"
+}

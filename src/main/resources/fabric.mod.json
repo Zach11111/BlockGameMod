@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"zach.blockgamemod.ExampleMod"
+			"zach.blockgamemod.Main"
 		],
 		"client": [
 			"zach.blockgamemod.ExampleModClient"

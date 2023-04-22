@@ -15,5 +15,7 @@
   "item.blockgamemod.platinum_chestplate": "Platinum Chestplate",
   "item.blockgamemod.platinum_leggings": "Platinum Leggings",
   "item.blockgamemod.platinum_boots": "Platinum Boots",
-  "item.blockgamemod.test_food": "Debug Food Item"
+  "item.blockgamemod.test_food": "Debug Food Item",
+  "block.blockgamemod.platinum_block_slab": "Platinum Block Slab",
+  "effect.blockgamemod.bridge": "Bridge"
 }

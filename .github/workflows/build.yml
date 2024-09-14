@@ -27,6 +27,12 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew build
 
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-artifacts
+        path: build/libs/ # This is where Gradle stores the built artifacts (like JAR files)
+
   dependency-submission:
 
     runs-on: ubuntu-latest

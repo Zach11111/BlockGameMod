@@ -176,7 +176,7 @@ public class Main implements ModInitializer {
 	//Armor
 	private static ArmorMaterial PlatinumArmorMaterial = new zach.blockgamemod.PlatinumArmorMaterial();
 
-//Helmet
+	//Helmet
 	public static  final ArmorItem PLATINUM_HELMET =
 		Registry.register(Registry.ITEM, new Identifier("blockgamemod", "platinum_helmet"),
 				new ArmorItem(PlatinumArmorMaterial, EquipmentSlot.HEAD, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(ItemGroup.COMBAT)));

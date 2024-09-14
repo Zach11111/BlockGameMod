@@ -32,6 +32,35 @@ public class BridgeEffect extends StatusEffect {
         return true;
     }
     @Override
+// public void applyUpdateEffect(LivingEntity entity, int amplifier) {
+//     if (entity instanceof PlayerEntity) {
+//         PlayerEntity playerEntity = ((PlayerEntity) entity);
+//         World world = playerEntity.getWorld();
+//         BlockPos pos = new BlockPos(playerEntity.getX(), playerEntity.getY() + 2, playerEntity.getZ());
+//         BlockPos pos2 = new BlockPos(playerEntity.getX(), playerEntity.getY() - 1, playerEntity.getZ());
+//         String block = String.valueOf(world.getBlockState(pos));
+//         LoggerFactory.getLogger("blockgamemod").info(block);
+//         BlockState newBlock = world.getBlockState(pos2);
+//         int stackSize = itemInHand.getCount();
+
+//         ItemStack itemInHand = playerEntity.getMainHandStack();
+//         if (itemInHand.getItem() instanceof BlockItem) {
+//             Block blockInHand = ((BlockItem) itemInHand.getItem()).getBlock();
+//             BlockState state = blockInHand.getDefaultState();
+//             if (world.isAir(pos2) && stackSize > 0 && blockInHand != Blocks.AIR) {
+//                 if (playerEntity.interactionManager.getGameMode() == GameMode.CREATIVE) {
+//                     world.setBlockState(pos2, state);
+//                 } else {
+//                     itemInHand.decrement(1);
+//                     world.setBlockState(pos2, state);
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// }
+
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity) {
             PlayerEntity playerEntity = ((PlayerEntity) entity);

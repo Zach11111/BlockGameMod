@@ -196,6 +196,10 @@ public class Main implements ModInitializer {
 			Registry.register(Registry.ITEM, new Identifier("blockgamemod", "platinum_boots"),
 					new ArmorItem(PlatinumArmorMaterial, EquipmentSlot.FEET, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(ItemGroup.COMBAT)));
 
-
+	//Poop 
+	public static final FoodComponent POOP = (new FoodComponent.Builder()).hunger(-10).saturationModifier(-3.0F).alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3F).build();
+	public static final Item POOP_ITEM =
+			Registry.register(Registry.ITEM, new Identifier("blockgamemod", "poop"),
+					new Item(new FabricItemSettings().group(ItemGroup.FOOD).rarity(Rarity.EPIC).food(POOP).maxCount(64)));
 }
 
